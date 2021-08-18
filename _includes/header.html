@@ -1,0 +1,12 @@
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+<header>
+  <div class="menu">
+    <ul>
+    	<li><a href="/">/</a></li>
+      {%- for category in site.categories -%}
+        {% assign cat4url = category[0] | remove:' ' | downcase %}
+        <li><a href="{{site.baseurl}}/category/{{cat4url}}">{{ category[0] | escape }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</header>
