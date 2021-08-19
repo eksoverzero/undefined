@@ -21,7 +21,7 @@
     {%- endif -%}
   {%- endif -%}
 
-  {%- if site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- if site.mixpanel_project_token -%}
+    {%- include mixpanel.html -%}
   {%- endif -%}
 </head>

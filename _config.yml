@@ -38,7 +38,7 @@ plugins:
 # https://github.com/b2a3e8/jekyll-theme-console
 style: light
 
-google_analytics: G-VTS5LCN6RN
+mixpanel_project_token: e5321215764f0747e825a7381196c10e
 
 # Exclude from processing.
 # The following items will not be processed, by default.
