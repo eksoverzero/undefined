@@ -2,7 +2,7 @@
 <header>
   <div class="menu">
     <ul>
-    	<li><a href="/">/</a></li>
+    	<li><a href="{{site.baseurl}}">/</a></li>
       {%- for category in site.categories -%}
         {% assign cat4url = category[0] | remove:' ' | downcase %}
         <li><a href="{{site.baseurl}}/category/{{cat4url}}">{{ category[0] | escape }}</a></li>
