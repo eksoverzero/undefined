@@ -29,9 +29,10 @@ github_username: eksoverzero
 twitter_username: eksoverzero
 
 # Build settings
-theme: jekyll-theme-console
+# theme: jekyll-theme-console
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # jekyll-theme-console settings
 # https://github.com/b2a3e8/jekyll-theme-console
