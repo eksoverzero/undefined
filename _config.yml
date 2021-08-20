@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: eksoverzero
+url: "https://eksoverzero.github.io"2
+title: Undefined
 email: eksoverzero@pm.me
+owner: eksoverzero
+baseurl: "/undefined" # the subpath of your site, e.g. /blog
 description: >- # this means to ignore newlines until "baseurl:"
   ¯\_(ツ)_/¯
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-
 github_username: eksoverzero
 twitter_username: eksoverzero
 
@@ -33,10 +33,6 @@ twitter_username: eksoverzero
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# jekyll-theme-console settings
-# https://github.com/b2a3e8/jekyll-theme-console
-style: light
 
 google_analytics: G-VTS5LCN6RN
 mixpanel_project_token: e5321215764f0747e825a7381196c10e

@@ -1,5 +1,6 @@
 <div id="nav">
-  <a href="{{site.url}}{{site.baseurl}}/">Blog</a> ·
-  <a href="{{site.url}}{{site.baseurl}}/about/">About</a> ·
-  <a href="{{site.url}}{{site.baseurl}}/projects/">Projects</a>
+  {%- for category in site.categories -%}
+    {% assign cat4url = category[0] | remove:' ' | downcase %}
+    <a href="{{site.baseurl}}/categories/{{cat4url}}">{{ category[0] | escape | capitalize }}</a>
+  {%- endfor -%}
 </div>

@@ -18,6 +18,7 @@ gem "webrick"
 group :jekyll_plugins do
   gem "jekyll-feed"
   # gem "github-pages"
+  gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end
 

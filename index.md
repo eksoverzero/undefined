@@ -1,4 +1,3 @@
 ---
-title: eksoverzero
 layout: default
 ---
