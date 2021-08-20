@@ -1,9 +1,7 @@
 body	{
-	margin-top: 0px;
-	padding:0;
 	font-family: 'Cutive Mono', serif;
-	font-size:100%;
-	line-height:150%;
+	font-size: 1rem;
+	line-height: 1.5;
 }
 
 a:link, a:visited	{
@@ -22,13 +20,21 @@ a:hover	{
 }
 
 #nav {
-	text-align:center;
-	margin:auto;
-	margin-top:0px;
-	padding-top:0px;
-	margin-bottom:5px;
-	padding-bottom:5px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 	border-bottom: 1px solid #000;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+#nav li {
+	margin: 0 10px;
+	display: inline flow-root list-item;
+}
+
+#nav li:first-child {
+	list-style: none;
 }
 
 #content-left {
@@ -60,7 +66,6 @@ a:hover	{
 #logo	{
 	text-align:center;
 	margin: 0 auto;
-	padding: 20px 0;
 }
 
 #logo img {
@@ -68,7 +73,7 @@ a:hover	{
 }
 
 #logo a {
-    font-size: 400%;
+    font-size: 4rem;
     font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -128,24 +133,6 @@ a:hover	{
 		display: block;
 		width: 100%;
 	}
-
-	#logo img {
-		max-width: 80%;
-	}
-
-	#nav {
-		font-size: 2em;
-		padding-bottom: 0.5em;
-	}
-
-	h2 {
-		font-size: 3em;
-	}
-
-	h3 {
-		font-size: 2em;
-	}
-
 }
 
 @media screen and (max-width: 400px) {
@@ -159,22 +146,4 @@ a:hover	{
 		display: block;
 		width: 100%;
 	}
-
-	#logo img {
-		max-width: 80%;
-	}
-
-	#nav {
-		font-size: 1.1em;
-		padding-bottom: 0.5em;
-	}
-
-	h2 {
-		font-size: 2em;
-	}
-
-	h3 {
-		font-size: 1.5em;
-	}
-
 }
