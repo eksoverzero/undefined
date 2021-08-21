@@ -1,0 +1,11 @@
+{% if page.revisions.size > 0 %}
+<ul class="post-revisions">
+{% for revision in page.revisions %}
+  <li>
+    <div class="post-meta">
+      {{ revision.date | date_to_string }} - {{ revision.message }}
+    </div>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}

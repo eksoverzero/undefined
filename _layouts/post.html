@@ -5,13 +5,24 @@
 	<div id="main">
   	{% include logo.html %}
   	{% include nav.html %}
-		<div id="content-left">
-      <div id="post">
-        <h2>{{ page.title }}</h2>
-        <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+    <div id="post" class="post">
+      <div class="post__heading">
+        <h1>{{ page.title }}</h1>
+
+        <div class="post__attributes">
+          <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+        </div>
+      </div>
+
+      <Div class="post__content">
         {{ content }}
-  		</div>
-    </div>
+      </div>
+
+      <div class="post__revisions">
+        <h4>Revisions</h4>
+        {% include post/revisions.html %}
+      </div>
+		</div>
 		{% include footer.html %}
 	</div>
     </body>
