@@ -61,7 +61,7 @@ a:hover	{
 
 #nav li {
 	margin: 0 10px;
-	display: inline flow-root list-item;
+	display: inline;
 }
 
 #nav li:first-child {

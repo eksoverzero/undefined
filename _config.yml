@@ -34,13 +34,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-google_analytics: G-VTS5LCN6RN
-mixpanel_project_token: e5321215764f0747e825a7381196c10e
-
-sass:
-  style: compressed
-  sass_dir: _sass
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
