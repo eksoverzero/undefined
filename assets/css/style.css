@@ -60,12 +60,18 @@ a:hover	{
 }
 
 #nav li {
-	margin: 0 10px;
+	margin: 0;
 	display: inline;
+	margin-right:  10px;
 }
 
-#nav li:first-child {
-	list-style: none;
+#nav li:before {
+  content: "\2022";
+  margin-right: 10px;
+}
+
+#nav li:first-child:before {
+	content:  "";
 }
 
 #content {
