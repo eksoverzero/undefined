@@ -2,27 +2,27 @@
 <html lang="{{site.language}}">
   {% include head.html %}
   <body>
-	<div id="main">
-  	{% include logo.html %}
-  	{% include nav.html %}
-    <div id="post" class="post">
-      <div class="post__heading">
-        <h1>{{ page.title }}</h1>
+  	<div id="main">
+    	{% include logo.html %}
+    	{% include nav.html %}
+      <div id="post" class="post">
+        <div class="post__heading">
+          <h1>{{ page.title }}</h1>
 
-        <div class="post__attributes">
-          <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+          <div class="post__attributes">
+            <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+          </div>
         </div>
-      </div>
 
-      <Div class="post__content">
-        {{ content }}
-      </div>
+        <Div class="post__content">
+          {{ content }}
+        </div>
 
-      <div class="post__revisions">
-        {% include post/revisions.html %}
-      </div>
-		</div>
-		{% include footer.html %}
-	</div>
-    </body>
+        <div class="post__revisions">
+          {% include post/revisions.html %}
+        </div>
+  		</div>
+  		{% include footer.html %}
+  	</div>
+  </body>
 </html>
