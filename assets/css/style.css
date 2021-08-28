@@ -44,6 +44,11 @@ a:hover	{
 	text-decoration: underline;
 }
 
+blockquote {
+	border-left: 1px solid #000;
+    padding-left: 20px;
+    margin-left: 0;
+}
 
 #main {
 	width: 50%;
